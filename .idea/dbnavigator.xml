@@ -23,7 +23,11 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes />
+    <loaded-nodes>
+      <connection connection-id="9e29cce9-d75a-47ba-b513-d59bb6c48e16">
+        <schema name="coffee" object-types="function, table, dataset trigger, index, column, constraint, procedure, view" />
+      </connection>
+    </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="9e29cce9-d75a-47ba-b513-d59bb6c48e16">
@@ -47,7 +51,14 @@
     <method-browser />
     <execution-history>
       <group-entries value="true" />
-      <execution-inputs />
+      <execution-inputs>
+        <execution-input execution-timeout="30" debug-execution-timeout="600" session-id="MAIN" enable-logging="false" commit-after-execution="false" connection-id="9e29cce9-d75a-47ba-b513-d59bb6c48e16" object-ref="schemas/coffee/procedures/proc_saledetail_orderby" execution-schema="coffee">
+          <argument-actions>
+            <argument name="isSalePrice" />
+          </argument-actions>
+        </execution-input>
+      </execution-inputs>
+      <selection connection-id="9e29cce9-d75a-47ba-b513-d59bb6c48e16" object-ref="schemas/coffee/procedures/proc_saledetail_orderby" />
     </execution-history>
     <argument-values-cache />
   </component>

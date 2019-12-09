@@ -107,7 +107,7 @@ if __name__ == '__main__':
     # print()
     # fetch_all_test_01()
     # print()
-    # fetch_all_test_02()
+    fetch_all_test_02()
 
     # use_where_test_01()
     #
